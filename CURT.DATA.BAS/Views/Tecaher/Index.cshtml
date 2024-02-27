@@ -1,0 +1,90 @@
+﻿@model IEnumerable<CURT.DATA.BAS.Models.Teacher>
+@{
+    int IDNo = 1;
+}
+<h1 class="text-center">Tecaher Informotion</h1>
+<a asp-action="CertForm" asp-controller="Tecaher"  class=" btn btn-outline-secondary">Add Tecaher</a>
+<div class="container mt-3">
+    <table class=" table table-bordered table-responsive  text-dark" id="Newtable">
+        <thead class=" text-center">
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Department</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@IDNo</td>
+                    <td>@item.Name</td>
+                    <td>@item.Subject</td>
+                    <td>@item.Department</td>
+                    <td>@item.Email</td>
+                    <td>@item.Phone</td>
+                    <td>
+                        <a class="btn btn-outline-info" asp-action="CertForm" asp-controller="Teacher" asp-route-id="@item.Id">Edit</a>
+                        <a class="btn btn-outline-primary" asp-action="Detiles" asp-controller="Teacher" asp-route-id="@item.Id">Detiles</a>
+                        <a class="btn btn-outline-danger " asp-action="Delete" asp-controller="Teacher" asp-route-id="@item.Id"  onclick="functionConfirm(this)">Delete</a>
+
+                    </td>
+
+                </tr>
+                IDNo++;
+            }
+        </tbody>
+    </table>
+
+</div>
+
+     @section Scripts{
+         <script >
+           new DataTable('#Newtable');
+        function functionConfirm(event) {
+            const swalWithBootstrapButtons = Swal.mixin({
+                customClass: {
+                    confirmButton: 'btn btn-success',
+                    cancelButton: 'btn btn-danger'
+                },
+                buttonsStyling: false
+            })
+
+            swalWithBootstrapButtons.fire({
+                title: 'Emin misiniz?',
+                text: "Bu işlem geri alınamaz!",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonText: 'Evet, sil!',
+                cancelButtonText: 'Hayır, iptal',
+                reverseButtons: true,
+                timer: 3000
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    $("form").submit();
+
+                    swalWithBootstrapButtons.fire({
+                        title: 'Silindi!',
+                        text: 'Kategori silindi.',
+                        icon: 'success',
+                        timer: '2000'
+                    }
+                    )
+                } else if (
+                    /* Read more about handling dismissals below */
+                    result.dismiss === Swal.DismissReason.cancel
+                ) {
+                    swalWithBootstrapButtons.fire(
+                        'İptal edildi',
+                        '',
+                        'error'
+                    )
+                }
+            })
+        }
+         </script>
+     }

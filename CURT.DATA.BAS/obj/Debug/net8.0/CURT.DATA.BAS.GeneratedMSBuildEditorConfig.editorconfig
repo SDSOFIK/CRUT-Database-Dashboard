@@ -1,0 +1,71 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CURT.DATA.BAS
+build_property.RootNamespace = CURT.DATA.BAS
+build_property.ProjectDir = F:\MVC\CRUD-Data-Desb\CURT.DATA.BAS\CURT.DATA.BAS\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = F:\MVC\CRUD-Data-Desb\CURT.DATA.BAS\CURT.DATA.BAS
+build_property._RazorSourceGeneratorDebug = 
+
+[F:/MVC/CRUD-Data-Desb/CURT.DATA.BAS/CURT.DATA.BAS/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC/CRUD-Data-Desb/CURT.DATA.BAS/CURT.DATA.BAS/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC/CRUD-Data-Desb/CURT.DATA.BAS/CURT.DATA.BAS/Views/Shared/Backend/Navber.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJhY2tlbmRcTmF2YmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC/CRUD-Data-Desb/CURT.DATA.BAS/CURT.DATA.BAS/Views/Shared/Backend/Seidber.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJhY2tlbmRcU2VpZGJlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC/CRUD-Data-Desb/CURT.DATA.BAS/CURT.DATA.BAS/Views/Shared/Backend/Style.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJhY2tlbmRcU3R5bGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC/CRUD-Data-Desb/CURT.DATA.BAS/CURT.DATA.BAS/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC/CRUD-Data-Desb/CURT.DATA.BAS/CURT.DATA.BAS/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC/CRUD-Data-Desb/CURT.DATA.BAS/CURT.DATA.BAS/Views/Tecaher/CertForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVjYWhlclxDZXJ0Rm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC/CRUD-Data-Desb/CURT.DATA.BAS/CURT.DATA.BAS/Views/Tecaher/Detiles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVjYWhlclxEZXRpbGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC/CRUD-Data-Desb/CURT.DATA.BAS/CURT.DATA.BAS/Views/Tecaher/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVjYWhlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC/CRUD-Data-Desb/CURT.DATA.BAS/CURT.DATA.BAS/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC/CRUD-Data-Desb/CURT.DATA.BAS/CURT.DATA.BAS/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/MVC/CRUD-Data-Desb/CURT.DATA.BAS/CURT.DATA.BAS/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-5ztrqxdhnl
